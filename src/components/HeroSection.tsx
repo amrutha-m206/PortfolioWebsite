@@ -32,7 +32,7 @@ const HeroSection = () => {
               </p>
               
               <p>
-                This is where I share my work, ideas, and passion — everything that drives me forward.
+                This is where I share my work, ideas, and passion everything that drives me forward.
                 Feel free to explore and get a glimpse of what I love doing.
               </p>
               
