@@ -29,7 +29,7 @@ const InternshipsSection = () => {
     },
     {
       company: "CIIRC",
-      description: "Learning internship with hands-on mini projects on embedded systems.",
+      description: "Built a soil monitoring system using ESP32 and MQTT for real-time moisture tracking with Adafruit.IO,promoting smart irrigation.",
       icon: Cpu,
       color: "text-green-600"
     }
