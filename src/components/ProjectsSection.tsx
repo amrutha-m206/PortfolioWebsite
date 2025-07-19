@@ -5,7 +5,7 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: "AutoAssess – Real-time Self Assessment System",
-      description: "A real-time online self-assessment system integrated with Generative AI using LLaMA for generating assessments and calculating scores based on user input PDFs.",
+      description: "A real-time online self-assessment fullstack application integrated with Generative AI using LLaMA for generating assessments,calculating scores,viewing performance history based on user input PDFs.",
       icon: Brain,
       tech: ["React.js", "Express.js", "MongoDB", "LLaMA", "Generative AI", "PDF Processing"]
     },
