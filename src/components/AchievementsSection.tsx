@@ -1,4 +1,4 @@
-import { Trophy, Github, Users, Award, Crown } from 'lucide-react';
+import { Trophy, Github, Users, Award, Crown, Music } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
 const AchievementsSection = () => {
@@ -35,6 +35,13 @@ const AchievementsSection = () => {
       title: "Student Placement Coordinator",
       description: "Student Placement Coordinator, RV University",
       icon: Crown,
+      color: "text-red-600",
+      bgColor: "bg-red-500/10"
+    }
+      {
+      title: "Violin Performance",
+      description: "Performed the violin at various college events, showcasing my passion for music.",
+      icon: Music,
       color: "text-red-600",
       bgColor: "bg-red-500/10"
     }
