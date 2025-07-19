@@ -38,7 +38,7 @@ const AchievementsSection = () => {
       color: "text-red-600",
       bgColor: "bg-red-500/10"
     },
-      {
+    {
       title: "Violin Performance",
       description: "Performed the violin at various college events, showcasing my passion for music.",
       icon: Music,
