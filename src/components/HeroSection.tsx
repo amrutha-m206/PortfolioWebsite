@@ -21,7 +21,9 @@ const HeroSection = () => {
 
           {/* Right Column - Content */}
           <div className="text-center lg:text-left animate-slide-in-right">
-         
+           <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
+              About Me
+            </h1>
             
             <div className="space-y-6 text-lg md:text-xl text-white/90 leading-relaxed">
               <p>
