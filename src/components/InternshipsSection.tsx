@@ -1,3 +1,4 @@
+import React from 'react';
 import { Building, Code, Database, Brain, Cpu } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
@@ -29,13 +30,13 @@ const InternshipsSection = () => {
     },
     {
       company: "CIIRC",
-      description: "Developed an RFID-based access system using  Arduino UNO to read UIDs and control  output based on authentication status.",
+      description: "Developed an RFID-based access system using Arduino UNO to read UIDs and control output based on authentication status.",
       icon: Cpu,
       color: "text-green-600"
     },
     {
       company: "Embedded Systems and IOT-RV University",
-      description: "Built a soil monitoring system using ESP32 and MQTT for real-time moisture tracking with Adafruit.IO,promoting smart irrigation.",
+      description: "Built a soil monitoring system using ESP32 and MQTT for real-time moisture tracking with Adafruit.IO, promoting smart irrigation.",
       icon: Cpu,
       color: "text-green-600"
     }
@@ -60,9 +61,11 @@ const InternshipsSection = () => {
             >
               <div className="flex items-start gap-4 h-full">
                 <div className={`p-3 rounded-lg bg-secondary ${internship.color} bg-opacity-10`}>
-                  <internship.icon className={`h-6 w-6 ${internship.color}`} />
+                  {React.createElement(internship.icon, {
+                    className: `h-6 w-6 ${internship.color}`
+                  })}
                 </div>
-                
+
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-emerald mb-3 group-hover:text-emerald-light transition-colors">
                     {internship.company}
